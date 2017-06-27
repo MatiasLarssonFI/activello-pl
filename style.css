@@ -12,3 +12,15 @@
  Domain Path: /languages/
  Tags: grid-layout, footer-widgets, blog, education, entertainment, food-and-drink, news, photography, portfolio, e-commerce
 */
+
+
+div.flex-caption {
+    text-shadow: 0px 0px 4px #000;
+}
+
+
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-default .navbar-nav > li.active > a:hover {
+    background-color: transparent;
+}
