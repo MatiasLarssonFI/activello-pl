@@ -54,7 +54,22 @@
 				</div>
 			</div>
 		</nav><!-- .site-navigation -->
+		<?php
+		
+		$is_slider_page = is_home() || is_front_page();
+		
+		if (!$is_slider_page): ?>
 
+		<div class="container">
+			<div id="logo">
+				<?php
+
+				if ( has_custom_logo() ) {
+					the_custom_logo();
+				}?>
+			</div><!-- end of #logo -->
+		</div>
+        <?php endif; ?>
 	</header><!-- #masthead -->
 
 

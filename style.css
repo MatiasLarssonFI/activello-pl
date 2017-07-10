@@ -24,3 +24,7 @@ div.flex-caption {
 .navbar-default .navbar-nav > li.active > a:hover {
     background-color: transparent;
 }
+
+#logo {
+    text-align: left;
+}
