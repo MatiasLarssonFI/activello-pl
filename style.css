@@ -25,6 +25,10 @@ div.flex-caption {
     background-color: transparent;
 }
 
-#logo {
+.entry-header {
     text-align: left;
+}
+
+.entry-header.page-header {
+    margin-top: 0px;
 }
