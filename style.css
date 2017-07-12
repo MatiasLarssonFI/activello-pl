@@ -32,3 +32,14 @@ div.flex-caption {
 .entry-header.page-header {
     margin-top: 0px;
 }
+
+.top-bar-decor-container {
+    height: 40px;
+    background-size: 93px 100%;
+    background-repeat: repeat-x;
+    background-image: url("lemon.png");
+}
+
+.navbar.navbar-default.navbar-no-border {
+    border: none;
+}
