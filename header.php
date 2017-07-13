@@ -31,7 +31,7 @@
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 	    <div class="top-bar-decor-container"></div>
-		<nav class="navbar navbar-default navbar-no-border" role="navigation">
+		<nav class="navbar navbar-default navbar-no-border navbar-top-bar-decor-spaced" role="navigation">
 			<div class="container">
 				<div class="row">
 					<div class="site-navigation-inner col-sm-12">
