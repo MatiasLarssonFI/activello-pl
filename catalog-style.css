@@ -60,4 +60,5 @@ li.plcatalog-product-price-group:not(:last-child) {
 h3.plcatalog-product-title {
     margin-top: 0;
     margin-bottom: 20px !important;
+    font-size: 20px !important;
 }
