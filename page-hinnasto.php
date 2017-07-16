@@ -27,24 +27,29 @@ call_user_func(function() {
 		    $query->the_post();
 		    
 			if ( ( function_exists( 'has_post_thumbnail' ) ) && ( has_post_thumbnail() ) ) :
-				echo '<div class="col-xs-12 col-md-6 plcatalog-product-container">';
-				echo '<div class="plcatalog-product">';
-				echo '    <div class="plcatalog-product-caption">';
+				echo '<div class="col-xs-12 plcatalog-product-container">';
+				echo '<div class="plcatalog-product row">';
+				echo '    <div class="col-xs-12">';
 				
 				if ( get_the_title() != '' ) {
 				    echo '    <h3 class="entry-title plcatalog-product-title">' . get_the_title() . '</h3>';
 				}
 				echo '    </div>';
 				
-				echo '    <div class="plcatalog-product-image">';
-				echo get_the_post_thumbnail( get_the_ID(), "full" );
-				echo '    </div>';
-				
-				echo '    <div class="plcatalog-product-text">';
-				echo get_the_content();
-				echo "    </div>";
-				echo '</div>';
-				echo '</div>';
+				echo '<div class="col-xs-12 col-md-4">';
+    				echo '    <div class="plcatalog-product-image">';
+    				echo get_the_post_thumbnail( get_the_ID(), "full" );
+    				echo '    </div>';
+    			echo '</div>';
+    			
+    			echo '<div class="col-xs-12 col-md-8">';
+    				echo '    <div class="plcatalog-product-text">';
+    				echo get_the_content();
+    				echo "    </div>";
+    			echo '</div>';
+    			
+				echo '</div>'; // .plcatalog-product
+				echo '</div>'; // .plcatalog-product-container
 			endif;
 		endwhile;
 		
