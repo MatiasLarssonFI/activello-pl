@@ -42,11 +42,11 @@ li.plcatalog-product-price-group {
     list-style: none;
     display: block;
     float: left;
-    padding: 0 .5em 0 .5em;
+    padding: 0 .2em 0 .2em;
 }
 
-li.plcatalog-product-price-group:not(:last-child) {
-    border-right: 1px solid #555;
+li.plcatalog-product-price-group:not(:last-child)::after {
+    content: ", ";
 }
 
 
