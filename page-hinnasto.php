@@ -1,8 +1,10 @@
 <?php get_header(); ?>
 
-<header class="entry-header page-header">
-	<h1 class="entry-title">Hinnasto</h1>
-</header>
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
+        <header class="entry-header page-header">
+        	<h1 class="entry-title">Hinnasto</h1>
+        </header>
 
 <?php
 
@@ -20,7 +22,6 @@ call_user_func(function() {
 	);
 	$query = new WP_Query( $args );
 	
-	echo '<div class="row">';
 	if ( $query->have_posts() ) :
     
 		while ( $query->have_posts() ) :
@@ -56,9 +57,11 @@ call_user_func(function() {
 		wp_reset_query();
 	endif;
 	
-	echo '</div>';
 });
 ?>
+
+    </main>
+</div>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
