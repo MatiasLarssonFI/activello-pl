@@ -1,4 +1,10 @@
 <?php
+
+function activellopinklemon_get_catalog_string() {
+    return "hinnasto";
+}
+
+
 add_action( 'wp_enqueue_scripts', function() {
 	$parent_styles = [];
     wp_enqueue_style( $parent_styles[] = 'activello-style', get_template_directory_uri() . '/style.css' );
@@ -7,6 +13,15 @@ add_action( 'wp_enqueue_scripts', function() {
         $parent_styles,
         wp_get_theme()->get('Version')
     );
+    $parent_styles[] = 'activellopinklemon-style';
+    if (is_page(activellopinklemon_get_catalog_string())) {
+        wp_enqueue_style(
+            'activellopinklemon-catalog-style',
+            get_stylesheet_directory_uri() . '/catalog-style.css',
+            $parent_styles,
+            wp_get_theme()->get('Version')
+        );
+    }
 });
 
 
