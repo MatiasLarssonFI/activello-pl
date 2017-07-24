@@ -5,6 +5,11 @@ function activellopinklemon_get_catalog_string() {
 }
 
 
+function activellopinklemon_get_shop_string() {
+    return "kahvila";
+}
+
+
 add_action( 'wp_enqueue_scripts', function() {
 	$parent_styles = [];
     wp_enqueue_style( $parent_styles[] = 'activello-style', get_template_directory_uri() . '/style.css' );
