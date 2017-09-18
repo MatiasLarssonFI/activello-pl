@@ -97,10 +97,6 @@ if ( ! function_exists( 'activello_featured_slider' ) ) :
 						} else {
 							  echo get_the_post_thumbnail( get_the_ID(), 'activello-slider' );
 						}
-								echo '<div class="flex-caption">';
-						if ( get_the_title() != '' ) { echo '<a href="' . get_permalink() . '"><h2 class="entry-title">' . get_the_title() . '</h2></a>';
-						}
-								echo '</div>';
 								echo '</li>';
 						endif;
 					endwhile;
