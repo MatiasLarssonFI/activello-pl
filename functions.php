@@ -74,6 +74,8 @@ if ( ! function_exists( 'activello_featured_slider' ) ) :
 			$slider_args = array(
 				'cat' => $slidecat,
 				'posts_per_page' => $slidelimit,
+				'order' => 'DESC',
+				'orderby' => 'title',
 				'meta_query' => array(
 					array(
 						'key' => '_thumbnail_id',
