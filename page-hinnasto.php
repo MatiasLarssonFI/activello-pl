@@ -45,7 +45,7 @@ call_user_func(function() {
     			
     			echo '<div class="col-xs-12 col-md-8">';
     				echo '    <div class="plcatalog-product-text">';
-    				echo get_the_content();
+    				echo apply_filters("the_content", get_the_content());
     				echo "    </div>";
     			echo '</div>';
     			
@@ -59,7 +59,7 @@ call_user_func(function() {
 	
 });
 ?>
-
+    <div><p><a href="http://pinklemon.fi/tarjouspyynto/" title="Tarjouspyyntö" class="entry-title" style="color:#ec80a8 !important;">Tästä tarjouspyyntölomakkeeseen</a></p></div>
     </main>
 </div>
 
