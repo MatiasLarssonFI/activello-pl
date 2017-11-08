@@ -31,7 +31,7 @@
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
 	    <div class="top-bar-decor-container"></div>
-		<nav class="navbar navbar-default navbar-no-border navbar-top-bar-decor-spaced" role="navigation">
+		<nav class="navbar navbar-default navbar-no-border navbar-top-bar-decor-spaced navbar-pl navbar-fixed-top navbar-fixed-top-sm" role="navigation">
 			<div class="container">
 				<div class="row">
 					<div class="site-navigation-inner col-sm-12">
@@ -48,6 +48,7 @@
 				</div>
 			</div>
 		</nav><!-- .site-navigation -->
+		<div class="post-nav-space"></div>
 		<?php
 		
 		$is_slider_page = is_home() || is_front_page();

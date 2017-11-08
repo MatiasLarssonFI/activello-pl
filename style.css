@@ -60,6 +60,19 @@ div.flex-caption {
 }
 
 
+@media (max-width: 768px) {
+
+    .navbar-pl.navbar-fixed-top.navbar-fixed-top-sm {
+        /* < sm: reset to regular navbar */
+        border-radius: 4px;
+        position: relative;
+        left: auto;
+        right: auto;
+        z-index: auto;
+        top: auto;
+        border-width: 1px;
+    }
+}
 
 @media (min-width: 768px) {
     .top-bar-decor-container {
@@ -68,5 +81,13 @@ div.flex-caption {
     
     .navbar-top-bar-decor-spaced {
         margin-top: 40px;
+    }
+    
+    .navbar-pl.navbar-fixed-top.navbar-fixed-top-sm {
+        background-color:rgba(255,255,255,0.8);    
+    }
+        
+    .post-nav-space {
+        height: 120px;
     }
 }
