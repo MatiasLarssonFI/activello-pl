@@ -60,13 +60,15 @@ div.flex-caption {
 }
 
 
-.bg-white {
+.bg-sm-white {
     background-color: #fff;
 }
 
 
 @media (max-width: 768px) {
-
+    .bg-sm-white {
+        background-color: transparent;
+    }
     .navbar-pl.navbar-fixed-top.navbar-fixed-top-sm {
         /* < sm: reset to regular navbar */
         border-radius: 4px;

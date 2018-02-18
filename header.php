@@ -30,7 +30,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<header id="masthead" class="site-header" role="banner">
-        <div class="top-bar-decor-container bg-white"></div>
+        <div class="top-bar-decor-container bg-sm-white"></div>
 		<nav class="navbar navbar-default navbar-no-border navbar-top-bar-decor-spaced navbar-pl navbar-fixed-top navbar-fixed-top-sm" role="navigation">
 			<div class="container">
 				<div class="row">
