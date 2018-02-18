@@ -60,6 +60,11 @@ div.flex-caption {
 }
 
 
+.bg-white {
+    background-color: #fff;
+}
+
+
 @media (max-width: 768px) {
 
     .navbar-pl.navbar-fixed-top.navbar-fixed-top-sm {
@@ -84,7 +89,7 @@ div.flex-caption {
     }
     
     .navbar-pl.navbar-fixed-top.navbar-fixed-top-sm {
-        background-color:rgba(255,255,255,0.8);    
+        background-color:#fff;    
     }
         
     .post-nav-space {
