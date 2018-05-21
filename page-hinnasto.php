@@ -59,7 +59,7 @@ call_user_func(function() {
 	
 });
 ?>
-    <div><p><a href="http://pinklemon.fi/tarjouspyynto/" title="Tarjouspyyntö" class="entry-title" style="color:#ec80a8 !important;">Tästä tarjouspyyntölomakkeeseen</a></p></div>
+    <div><p><a href="https://pinklemon.fi/tarjouspyynto/" title="Tarjouspyyntö" class="entry-title" style="color:#ec80a8 !important;">Tästä tarjouspyyntölomakkeeseen</a></p></div>
     </main>
 </div>
 
